@@ -206,6 +206,8 @@ document.getElementById('view-correct').addEventListener('click', () => {
     document.getElementById('result-div-id').style.display = 'none';
     document.getElementById('summary-div').style.display = 'block';
 
+    // show correct answers for each question
+
     summaryDiv = document.getElementById('show-summary');
     for(var i = 0; i < numOfQuestions; i++) {
         var badge = document.createElement('div');
